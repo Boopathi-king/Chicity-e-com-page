@@ -1,5 +1,10 @@
 import React from 'react'
 import './Footer.css'
+import { FaFacebookF } from "react-icons/fa";
+import { IoLogoInstagram } from "react-icons/io5";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa";
+
 
 const Footer = () => {
   return (
@@ -14,10 +19,10 @@ const Footer = () => {
           Pellentesque habitant.
         </p>
         <div className="social-icons">
-          <i className="fab fa-facebook-f"></i>
-          <i className="fab fa-instagram"></i>
-          <i className="fab fa-xing"></i>
-          <i className="fab fa-linkedin-in"></i>
+          <FaFacebookF className='fab'/>
+          <IoLogoInstagram className='fab'/>
+          <FaXTwitter className='fab'/>
+          <FaLinkedinIn className='fab'/>
         </div>
       </div>
 

@@ -11,7 +11,7 @@ const hero = () => {
       <h4>Trending Collection 2024</h4>
       <h1>Inspired by <br/>your fashion <br/>dream</h1>
       <p>Lorem ipsum dolor sit amet consectetur. Nisi imperdiet at <br/>tellus sed vel neque sapien. Ac</p>
-      <a href="#" className="shop-now-btn">Shop Now <IoIosArrowForward/> </a>
+      <a href="/" className="shop-now-btn">Shop Now <IoIosArrowForward/> </a>
       </div>
      <div className="image-content">
       <img 

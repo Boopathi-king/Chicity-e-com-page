@@ -48,6 +48,7 @@
     color: #777;
     font-size: 0.9rem;
     margin-bottom: 20px;
+    text-align: left;
   }
   
   .explore-button {
@@ -55,12 +56,15 @@
     background-color: #f97316;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 25px;
+    width: 200px;
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
   
   .explore-button:hover {
-    background-color: #e65a00;
+    background-color: #ffffff;
+    border: 2px solid #e65a00;
+    color: #e65a00;
   }
   

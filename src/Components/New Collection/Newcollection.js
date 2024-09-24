@@ -3,6 +3,7 @@ import './Newcollection.css'
 import imagetwo from './../../Assets/Image 2.jpg'
 import imagethree from './../../Assets/Image 3.jpg'
 import imagefour from './../../Assets/Image 4.jpg'
+import { IoIosArrowForward } from "react-icons/io";
 
 const CollectionCard = ({ image, title, description }) => {
     return (
@@ -11,7 +12,7 @@ const CollectionCard = ({ image, title, description }) => {
         <div className="collection-info">
           <h2>{title}</h2>
           <p>{description}</p>
-          <button className="explore-button">Explore Now</button>
+          <button className="explore-button">Explore Now <IoIosArrowForward/></button>
         </div>
       </div>
     );

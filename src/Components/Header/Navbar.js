@@ -1,5 +1,7 @@
 import React from 'react'
 import './Navbar.css';
+// import { FaBars, FaTimes } from "react-icons/fa";
+
 
 const Navbar = () => {
   return (
@@ -20,7 +22,12 @@ const Navbar = () => {
       <i className="fas fa-shopping-cart"></i>
       <i className="fas fa-user"></i>
     </div>
+    <button>
+      {/* <FaBars/> */}
+    </button>
   </nav>
+
+
   )
 }
 

@@ -4,6 +4,11 @@ import britcoImage from './../../Assets/Britco.png';
 import glitImage from './../../Assets/Gilt.png';
 import popsugarImage from './../../Assets/PopSugar.png';
 import huffpostImage from './../../Assets/huffpost.png';
+import imageFive from './../../Assets/Shimmers.jpg';
+import imageSix from './../../Assets/Check shirt.webp';
+import imageSeven from './../../Assets/Switer set.jpg';
+import { TiShoppingCart } from "react-icons/ti";
+
 
 const TrendingProducts = () => {
   const products = [
@@ -11,27 +16,27 @@ const TrendingProducts = () => {
       id: 1,
       name: 'Shimmery Shirt',
       price: 200.00,
-      imageUrl: 'shimmery-shirt-image-url',
+      imageUrl: imageFive,
     },
     {
       id: 2,
       name: 'Check Shirt',
       price: 300.00,
-      imageUrl: 'check-shirt-image-url',
+      imageUrl: imageSix,
     },
     {
       id: 3,
       name: 'Sweater Set',
       price: 200.00,
-      imageUrl: 'sweater-set-image-url',
+      imageUrl: imageSeven,
     }
   ];
 
   const logos = [
-    { id: 1, name: 'Brit+Co', logoUrl: {britcoImage} },
-    { id: 2, name: 'GILT', logoUrl: {glitImage} },
-    { id: 3, name: 'PopSugar', logoUrl: {popsugarImage} },
-    { id: 4, name: 'HuffPost', logoUrl: {huffpostImage} },
+    { id: 1, name: 'Brit+Co', logoUrl: britcoImage },
+    { id: 2, name: 'GILT', logoUrl: glitImage },
+    { id: 3, name: 'PopSugar', logoUrl: popsugarImage },
+    { id: 4, name: 'HuffPost', logoUrl: huffpostImage },
   ];
 
   return (
@@ -43,7 +48,8 @@ const TrendingProducts = () => {
             <img src={product.imageUrl} alt={product.name} className="product-image" />
             <h3>{product.name}</h3>
             <p>${product.price.toFixed(2)}</p>
-            <button className="cart-button">🛒</button>
+            {/* <button className="cart-button">🛒</button> */}
+            <TiShoppingCart className="cart-icon" />
           </div>
         ))}
       </div>

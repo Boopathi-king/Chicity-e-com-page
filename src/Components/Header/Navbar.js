@@ -22,9 +22,9 @@ const Navbar = () => {
       <i className="fas fa-shopping-cart"></i>
       <i className="fas fa-user"></i>
     </div>
-    <button>
-      {/* <FaBars/> */}
-    </button>
+    {/* <button>
+      <FaBars/>
+    </button> */}
   </nav>
 
 

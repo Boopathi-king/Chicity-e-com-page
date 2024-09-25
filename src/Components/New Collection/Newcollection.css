@@ -95,3 +95,19 @@ p {
   flex-direction: row-reverse; /* Reverse the direction: text on left, image on right */
 }
 
+
+@media (max-width: 768px) {
+  .collection-card {
+      flex-direction: column; 
+  }
+  
+  .image-wrapper {
+      max-width: 100%;
+      height: 200px;
+  }
+  
+  .collection-card:nth-child(2) {
+      flex-direction: column;
+  }
+}
+

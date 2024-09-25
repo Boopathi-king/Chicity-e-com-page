@@ -84,3 +84,28 @@
     right: -10%;
   }
    */
+
+@media (max-width: 768px) {
+
+  .fashion-banner{
+    height: 500px;
+    width: 100%;
+  }
+  
+}
+
+@media (max-width:  576px) {
+
+  .fashion-banner{
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text-content{
+    max-width: 100%;
+    text-align: center;
+  }
+
+
+}

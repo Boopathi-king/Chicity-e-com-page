@@ -72,3 +72,32 @@
 .three{
     background-color: #9bcceb;
 }
+
+@media (max-width: 768px) {
+  .features-container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* margin-top: 20px; */
+    width: 1200px;
+    margin-left: -180px;
+  }
+
+  .one{
+    margin-bottom: 30px;
+  }
+
+  .two{
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .three{
+    margin-top: 20px;
+  }
+
+  .feature-card{
+    margin: 30px 10px;
+  }
+}

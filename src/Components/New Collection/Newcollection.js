@@ -29,16 +29,20 @@ const Newcollection = () => {
         image={imagetwo}
         title="Women's Hot Collection"
         description="Lorem ipsum dolor sit amet consectetur. Nisi imperdiet ac nulla sed neque suspendisse purus. Nullam enim id ipsum in venenatis vitae libero."
+          backgroundColor="#FFE8E5"
       />
       <CollectionCard
         image= {imagethree}
         title="Sunglasses Collection"
         description="Lorem ipsum dolor sit amet consectetur. Nisi imperdiet ac nulla sed neque suspendisse purus. Nullam enim id ipsum in venenatis vitae libero."
+        backgroundColor="#FFD6D0"
+
       />
       <CollectionCard
         image= {imagefour}
         title="Men's Hot Collection"
         description="Lorem ipsum dolor sit amet consectetur. Nisi imperdiet ac nulla sed neque suspendisse purus. Nullam enim id ipsum in venenatis vitae libero."
+        backgroundColor="#FFE08A"
       />
     </div>
   </div>

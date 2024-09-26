@@ -91,7 +91,7 @@ nav ul li a:hover{
     cursor: pointer;
   }
 
-  .NavLinks ul {
+  .NavLinks ul{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -99,10 +99,11 @@ nav ul li a:hover{
     border-top: 3px solid orange;
     top: 15vh;
     right: 0;
-    height: 700px;
+    height: 50vh;
     width: 100%;
-    background:transparent;
+    background:blue;
 }
+
 }
 
 

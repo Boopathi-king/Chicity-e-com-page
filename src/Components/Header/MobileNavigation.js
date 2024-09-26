@@ -26,7 +26,6 @@ const MobileNavigation = () => {
     <nav className="MobileNavigation">
         <h2 className="logo">CHICITY</h2>
         {click ? Close : Hamburger}
-        {/* {click && <Navlinks/>} */}
         {click && <Navlinks isClicked={true} closeMenu={closeMenu}/>}
     </nav>
   )

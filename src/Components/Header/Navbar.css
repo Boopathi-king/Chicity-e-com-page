@@ -38,8 +38,11 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-  color: white;
-  transition: .3s;
+  /* border: 2px solid black; */
+  border-radius: 10px;
+  color: rgb(189, 92, 92);
+  transition: text-decoration .3s ease-out;
+  /* text-decoration: underline black; */
 }
 
 .DesktopNavigation h2{
@@ -49,7 +52,13 @@ nav ul li a:hover{
   margin: 30px;
 }
 
-/*You can style yours differently*/
+.bag-icon{
+  /* position: relative; */
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
 
 .MobileNavigation{
   display: none;
@@ -90,7 +99,7 @@ nav ul li a:hover{
     border-top: 3px solid orange;
     top: 15vh;
     right: 0;
-    height: 50vh;
+    height: 700px;
     width: 100%;
     background:transparent;
 }

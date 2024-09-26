@@ -1,5 +1,7 @@
 import React from 'react'
 import './Navbar.css'
+import { IoBagOutline } from "react-icons/io5";
+
 
 const Navlinks = ({isclicked, closeMenu}) => {
   return (
@@ -11,6 +13,7 @@ const Navlinks = ({isclicked, closeMenu}) => {
             <li onClick={() => isclicked && closeMenu()}><a href="#new-arrivals">New Arrivals</a></li>
             <li onClick={() => isclicked && closeMenu()}><a href="#sale">Sale</a></li>
         </ul>
+        <IoBagOutline className='bag-icon'/>
     </nav>
   )
 }

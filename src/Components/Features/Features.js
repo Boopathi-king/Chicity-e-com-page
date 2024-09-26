@@ -9,7 +9,7 @@ import { RiCustomerServiceFill } from "react-icons/ri";
 const Features = () => {
   return (
     <div className="features-container">
-    <div className="feature-card one">
+    <div className="feature-card cardone">
       <div className="icon-box green-bg">
       <RiRocketLine  className='rocket-icon'/>
       </div>
@@ -17,7 +17,7 @@ const Features = () => {
       <p>Lorem ipsum dolor sit amet consectetur. Nisi imperdiet at</p>
     </div>
 
-    <div className="feature-card two">
+    <div className="feature-card cardtwo">
       <div className="icon-box yellow-bg">
         <TbTruckReturn className='truck-icon'/>
       </div>
@@ -25,7 +25,7 @@ const Features = () => {
       <p>Lorem ipsum dolor sit amet consectetur. Nisi imperdiet at</p>
     </div>
 
-    <div className="feature-card three">
+    <div className="feature-card cardthree">
       <div className="icon-box blue-bg">
         <RiCustomerServiceFill className='customer-icon'/>
       </div>

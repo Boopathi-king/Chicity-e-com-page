@@ -61,15 +61,15 @@
     font-size: 35px;
 }
 
-.one{
-    background-color: #c9ecc7;
+.cardone{
+    background-color: #9de999;
 }
 
-.two {
+.cardtwo {
     background-color: #e9dab5;
 }
 
-.three{
+.cardthree{
     background-color: #9bcceb;
 }
 
@@ -84,16 +84,16 @@
     margin-left: -180px;
   }
 
-  .one{
+  .cardone{
     margin-bottom: 30px;
   }
 
-  .two{
+  .cardtwo{
     margin-top: 20px;
     margin-bottom: 30px;
   }
 
-  .three{
+  .cardthree{
     margin-top: 20px;
   }
 

@@ -3,10 +3,13 @@
     background-color: #000;
     color: #fff;
     padding: 50px 30px;
+    display: flex;
+    flex-wrap: wrap;
   }
   
   .footer-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-start;
   }
@@ -86,7 +89,16 @@
       flex-direction: column;
     }
 
-    
+    /* .footer-section .footer-list .footer-title {
+      display: flex;
+      flex-wrap: wrap;
+    } */
+
+    .footer-title .footer-text {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
   }
 
   @media (max-width:   480px) {

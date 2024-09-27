@@ -79,9 +79,7 @@
     flex-direction: column;
     /* justify-content: space-between; */
     align-items: center;
-    /* margin-top: 20px; */
-    width: 1000px;
-    margin-left: -180px;
+    width: 100%;
   }
 
   .cardone{
@@ -91,13 +89,16 @@
   .cardtwo{
     margin-top: 20px;
     margin-bottom: 30px;
+    width: 400px;
   }
 
   .cardthree{
     margin-top: 20px;
+    width: 400px;
   }
 
   .feature-card{
     margin: 30px 10px;
+    width: 400px;
   }
 }

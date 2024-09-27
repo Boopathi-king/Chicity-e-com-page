@@ -91,18 +91,31 @@ nav ul li a:hover{
     cursor: pointer;
   }
 
-  .NavLinks ul{
+ 
+  .link-items {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     position: absolute;
-    border-top: 3px solid orange;
     top: 15vh;
     right: 0;
     height: 50vh;
     width: 100%;
-    background:blue;
+    background-color: #0ab3aa;
+    background: fixed;
 }
+
+.link-items li{
+  background-color: #0ab3aa;
+  width: 50%;
+}
+  .bag-icon{
+    position: absolute;
+    top: 10vh;
+    right: 0;
+    width: 100%;
+    
+  }
 
 }
 

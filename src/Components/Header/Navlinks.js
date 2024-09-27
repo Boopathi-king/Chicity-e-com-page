@@ -6,7 +6,7 @@ import { IoBagOutline } from "react-icons/io5";
 const Navlinks = ({isclicked, closeMenu}) => {
   return (
     <nav className='Navlinks'>
-        <ul>
+        <ul className='link-items'>
             <li onClick={() => isclicked && closeMenu()}><a href='/#Women'>Women</a></li>
             <li onClick={() => isclicked && closeMenu()}><a href='/#Men'>Men</a></li>
             <li onClick={() => isclicked && closeMenu()}><a href='/#Accessories'>Accessories</a></li>
